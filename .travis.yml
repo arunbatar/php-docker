@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+language: php
 sudo: required
 
 services:
@@ -20,12 +21,12 @@ services:
 branches:
   only:
     - master
+    - dev
 
 notifications:
   email:
     recipients:
-      - php-cloud-eng@google.com
-      - tmatsuo@google.com
+      - arun@batar.com
 
 env:
   global:
